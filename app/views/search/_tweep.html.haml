@@ -1,6 +1,10 @@
 .tweep
-  .avatar= link_to image_tag(tweep['profile_image_url']), "http://twitter.com/#{tweep['screen_name']}"
-  .name= tweep['name']
-  .id= tweep['screen_name']
-  .description= tweep['description']
-  .url= link_to tweep['url']
+  .avatar= link_to image_tag("http://twitteravatar.appspot.com/users/avatar/#{tweep['screen_name']}"), "http://twitter.com/#{tweep['screen_name']}"
+  .details
+    .user_info
+      = link_to tweep['screen_name'], "http://twitter.com/#{tweep['screen_name']}"
+      |
+      = tweep['name']
+    .description= tweep['description']
+    - if tweep['url']
+      .url= link_to tweep['url']

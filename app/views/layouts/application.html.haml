@@ -7,13 +7,19 @@
     %meta{"http-equiv"=>"Content-Type", :content=>"text/html; charset=utf-8"}/
     = stylesheet_link_tag 'application'
     = yield(:head)
+    = javascript_include_tag 'jquery', 'application'
   
   %body
-    #container
-      - flash.each do |name, msg|
-        = content_tag :div, msg, :id => "flash_#{name}"
+    #wrap
+      #title
+        %h1
+          = link_to "Who's Following", root_path
+      #tagline
+        %h2
+          Learn more about who's following you than you ever wanted to know...
+      .clear
+      #container
+        - flash.each do |name, msg|
+          = content_tag :div, msg, :id => "flash_#{name}"
       
-      - if show_title?
-        %h1=h yield(:title)
-      
-      = yield
+        = yield

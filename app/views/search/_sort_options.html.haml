@@ -1,0 +1,7 @@
+.sort_options
+  %ul
+    %li= link_to 'Followers', search_path(:name => params[:name], :sort => 'followers')
+    %li= link_to 'Friends', search_path(:name => params[:name], :sort => 'friends')
+    %li= link_to 'Last Update', search_path(:name => params[:name], :sort => 'last_update')
+    %li= link_to 'Screen Name', search_path(:name => params[:name], :sort => 'name')
+.clear

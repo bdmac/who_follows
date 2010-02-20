@@ -917,3 +917,2598 @@ Rendered search/_tweep (0.2ms)
 Rendered search/_tweep (0.2ms)
 Rendered search/_tweep (0.2ms)
 Completed in 8152ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:21:37) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 7958ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:24:41) [GET]
+Rendering template within layouts/application
+Rendering search/index
+
+ActionView::TemplateError (undefined local variable or method `screen_name' for #<ActionView::Base:0x22b4718>) on line #2 of app/views/search/_tweep.html.haml:
+1: .tweep
+2:   .avatar= link_to image_tag("http://twitteravatar.appspot.com/users/avatar/#{tweep[screen_name]}"), "http://twitter.com/#{tweep['screen_name']}"
+3:   .name= tweep['name']
+4:   .id= tweep['screen_name']
+5:   .description= tweep['description']
+
+    app/views/search/_tweep.html.haml:2:in `_run_haml_app47views47search47_tweep46html46haml_locals_object_tweep_tweep_counter'
+    httparty (0.4.5) lib/httparty/response.rb:15:in `map'
+    httparty (0.4.5) lib/httparty/response.rb:15:in `send'
+    httparty (0.4.5) lib/httparty/response.rb:15:in `method_missing'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.20) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/search/index.html.haml:13:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (60.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:25:05) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (1.8ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 3768ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:35:48) [GET]
+Rendering template within layouts/application
+Rendering search/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #2 of app/views/search/_tweep.html.haml:
+1: .tweep
+2:   .avatar= link_to image_tag("http://twitteravatar.appspot.com/users/avatar/#{tweep['screen_name']}"), "http://twitter.com/#{tweep['screen_name']}"
+3:   .name= tweep['name']
+4:   .id= tweep['screen_name']
+5:   .description= tweep['description']
+
+    app/views/search/_tweep.html.haml:2:in `_run_haml_app47views47search47_tweep46html46haml_locals_object_tweep_tweep_counter'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.20) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/search/index.html.haml:13:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (60.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:36:40) [GET]
+Rendering template within layouts/application
+Rendering search/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #2 of app/views/search/_tweep.html.haml:
+1: .tweep
+2:   .avatar= link_to image_tag("http://twitteravatar.appspot.com/users/avatar/#{tweep['screen_name']}"), "http://twitter.com/#{tweep['screen_name']}"
+3:   .name= tweep['name']
+4:   .id= tweep['screen_name']
+5:   .description= tweep['description']
+
+    app/views/search/_tweep.html.haml:2:in `_run_haml_app47views47search47_tweep46html46haml_locals_object_tweep_tweep_counter'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.20) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/search/index.html.haml:13:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (65.2ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:38:20) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 30326ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:39:56) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 19752ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:40:16) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 17548ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:40:46) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 13888ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:41:00) [GET]
+
+NoMethodError (undefined method `text' for nil:NilClass):
+  lib/tweep_search.rb:26:in `search'
+  httparty (0.4.5) lib/httparty/response.rb:15:in `map'
+  httparty (0.4.5) lib/httparty/response.rb:15:in `send'
+  httparty (0.4.5) lib/httparty/response.rb:15:in `method_missing'
+  lib/tweep_search.rb:23:in `search'
+  app/controllers/search_controller.rb:5:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (47.8ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:42:21) [GET]
+
+NoMethodError (undefined method `text' for nil:NilClass):
+  lib/tweep_search.rb:26:in `search'
+  httparty (0.4.5) lib/httparty/response.rb:15:in `map'
+  httparty (0.4.5) lib/httparty/response.rb:15:in `send'
+  httparty (0.4.5) lib/httparty/response.rb:15:in `method_missing'
+  lib/tweep_search.rb:23:in `search'
+  app/controllers/search_controller.rb:5:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:49:20) [GET]
+
+NoMethodError (undefined method `text' for nil:NilClass):
+  lib/tweep_search.rb:26:in `search'
+  httparty (0.4.5) lib/httparty/response.rb:15:in `map'
+  httparty (0.4.5) lib/httparty/response.rb:15:in `send'
+  httparty (0.4.5) lib/httparty/response.rb:15:in `method_missing'
+  lib/tweep_search.rb:23:in `search'
+  app/controllers/search_controller.rb:5:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (105.5ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:50:53) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (2.5ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (1.5ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (8.0ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (1.6ms)
+Rendered search/_tweep (0.3ms)
+Completed in 16953ms (View: 53, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:51:47) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Completed in 20473ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:55:25) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (2.8ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Completed in 7586ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:55:41) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.5ms)
+Rendered search/_tweep (0.8ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (1.1ms)
+Rendered search/_tweep (0.3ms)
+Completed in 4810ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:55:52) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 4888ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 23:12:50) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 3523ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 23:14:46) [GET]
+
+NoMethodError (undefined method `text' for nil:NilClass):
+  lib/tweep_search.rb:27:in `search'
+  httparty (0.4.5) lib/httparty/response.rb:15:in `map'
+  httparty (0.4.5) lib/httparty/response.rb:15:in `send'
+  httparty (0.4.5) lib/httparty/response.rb:15:in `method_missing'
+  lib/tweep_search.rb:24:in `search'
+  app/controllers/search_controller.rb:5:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (104.0ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 23:15:58) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (2.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 6088ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 23:17:02) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (2.5ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Completed in 5183ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 23:18:58) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (2.1ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5151ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 23:20:27) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (2.8ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 22009ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 23:22:03) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (2.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 24702ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 01:39:55) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 7188ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 11:18:09) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5785ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 11:18:27) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Completed in 9368ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 11:19:20) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 8550ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 11:20:44) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Completed in 5801ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 11:23:46) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 11756ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 11:25:43) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 9613ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:14:49) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 10964ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:16:47) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5674ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:22:05) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 6042ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:26:28) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5569ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:27:09) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (2.2ms)
+Rendered search/_tweep (1.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (2.3ms)
+Completed in 12250ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:27:22) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5392ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:28:43) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 4516ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:29:03) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 6099ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:29:59) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (1.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Completed in 4899ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:32:01) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5767ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:32:46) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5183ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:33:11) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 4495ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:33:26) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 4422ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:33:55) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5287ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:34:22) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Completed in 4609ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:34:41) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 4996ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:35:03) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (0.5ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.7ms)
+Completed in 4780ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:46:50) [GET]
+Rendering template within layouts/application
+Rendering search/index
+ERROR: compiling _run_haml_app47views47search47_search_form46html46haml_locals_object_search_form_user RAISED compile error
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:5: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47search47_search_form46html46haml_locals_object_search_form_user(local_assigns)
+            old_output_buffer = output_buffer;user = local_assigns[:user];search_form = local_assigns[:search_form];object = local_assigns[:object];;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:preserve=>["textarea", "pre", "code"], :format=>:xhtml, :attr_wrapper=>"'", :encoding=>nil, :escape_html=>false, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("", 0, false);haml_temp =  form_tag '/search';
+_hamlout.push_text("#{haml_temp =  text_field_tag 'name'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  submit_tag "Who's Following?"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);end;_hamlout.buffer << _hamlout.format_script_false_false_false_false_false_false_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));_hamlout.push_text("\n", 0, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:5:in `compile!'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:20:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:19:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/partials.rb:184:in `render_partial'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:267:in `render_without_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers.rb:96:in `non_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/bmcmanus/rails_apps/following/app/views/search/index.html.haml:3:in `_run_haml_app47views47search47index46html46haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `send'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:306:in `with_template'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:30:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render_without_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render_without_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/rails/../lib/sass/plugin/rails.rb:20:in `process'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/commands/server.rb:111
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:5: syntax error, unexpected kENSURE, expecting $end) on line #5 of app/views/search/_search_form.html.haml:
+2:   = text_field_tag 'name'
+3:   = submit_tag "Who's Following?"
+
+    app/views/search/_search_form.html.haml:5:in `compile!'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.20) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/search/index.html.haml:3:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (66.1ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:48:26) [GET]
+Rendering template within layouts/application
+Rendering search/index
+ERROR: compiling _run_haml_app47views47search47_search_form46html46haml_locals_object_search_form_user RAISED compile error
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:6: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47search47_search_form46html46haml_locals_object_search_form_user(local_assigns)
+            old_output_buffer = output_buffer;user = local_assigns[:user];search_form = local_assigns[:search_form];object = local_assigns[:object];;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:preserve=>["textarea", "pre", "code"], :format=>:xhtml, :attr_wrapper=>"'", :encoding=>nil, :escape_html=>false, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+_hamlout.push_text("<div class='search_form'>\n  ", 1, false);haml_temp =  form_tag '/search';
+_hamlout.push_text("  #{haml_temp =  text_field_tag 'name'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  #{haml_temp =  submit_tag "Who's Following?"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);end;_hamlout.buffer << _hamlout.format_script_false_false_false_false_false_false_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));_hamlout.push_text("\n</div>\n", -1, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:6:in `compile!'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:20:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:19:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/partials.rb:184:in `render_partial'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:267:in `render_without_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers.rb:96:in `non_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/bmcmanus/rails_apps/following/app/views/search/index.html.haml:3:in `_run_haml_app47views47search47index46html46haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `send'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:306:in `with_template'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:30:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render_without_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render_without_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/rails/../lib/sass/plugin/rails.rb:20:in `process'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/commands/server.rb:111
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:6: syntax error, unexpected kENSURE, expecting $end) on line #6 of app/views/search/_search_form.html.haml:
+3:     = text_field_tag 'name'
+4:     = submit_tag "Who's Following?"
+
+    app/views/search/_search_form.html.haml:6:in `compile!'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.20) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/search/index.html.haml:3:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (57.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:48:40) [GET]
+Rendering template within layouts/application
+Rendering search/index
+ERROR: compiling _run_haml_app47views47search47_search_form46html46haml_locals_object_search_form_user RAISED compile error
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:6: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47search47_search_form46html46haml_locals_object_search_form_user(local_assigns)
+            old_output_buffer = output_buffer;user = local_assigns[:user];search_form = local_assigns[:search_form];object = local_assigns[:object];;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:preserve=>["textarea", "pre", "code"], :format=>:xhtml, :attr_wrapper=>"'", :encoding=>nil, :escape_html=>false, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+_hamlout.push_text("<div class='search_form'>\n", 1, false); form_tag '/search';
+_hamlout.push_text("  #{haml_temp =  text_field_tag 'name'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  #{haml_temp =  submit_tag "Who's Following?"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);end;_hamlout.push_text("</div>\n", -1, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:6:in `compile!'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:20:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:19:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/partials.rb:184:in `render_partial'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:267:in `render_without_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers.rb:96:in `non_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/bmcmanus/rails_apps/following/app/views/search/index.html.haml:3:in `_run_haml_app47views47search47index46html46haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `send'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:306:in `with_template'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:30:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render_without_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render_without_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/rails/../lib/sass/plugin/rails.rb:20:in `process'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/commands/server.rb:111
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:6: syntax error, unexpected kENSURE, expecting $end) on line #6 of app/views/search/_search_form.html.haml:
+3:     = text_field_tag 'name'
+4:     = submit_tag "Who's Following?"
+
+    app/views/search/_search_form.html.haml:6:in `compile!'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.20) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/search/index.html.haml:3:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (126.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:48:42) [GET]
+Rendering template within layouts/application
+Rendering search/index
+ERROR: compiling _run_haml_app47views47search47_search_form46html46haml_locals_object_search_form_user RAISED compile error
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:6: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47search47_search_form46html46haml_locals_object_search_form_user(local_assigns)
+            old_output_buffer = output_buffer;user = local_assigns[:user];search_form = local_assigns[:search_form];object = local_assigns[:object];;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:preserve=>["textarea", "pre", "code"], :format=>:xhtml, :attr_wrapper=>"'", :encoding=>nil, :escape_html=>false, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+_hamlout.push_text("<div class='search_form'>\n", 1, false); form_tag '/search';
+_hamlout.push_text("  #{haml_temp =  text_field_tag 'name'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  #{haml_temp =  submit_tag "Who's Following?"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);end;_hamlout.push_text("</div>\n", -1, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:6:in `compile!'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:20:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:19:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/partials.rb:184:in `render_partial'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:267:in `render_without_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers.rb:96:in `non_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/bmcmanus/rails_apps/following/app/views/search/index.html.haml:3:in `_run_haml_app47views47search47index46html46haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `send'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:306:in `with_template'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:30:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render_without_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render_without_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/rails/../lib/sass/plugin/rails.rb:20:in `process'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/commands/server.rb:111
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:6: syntax error, unexpected kENSURE, expecting $end) on line #6 of app/views/search/_search_form.html.haml:
+3:     = text_field_tag 'name'
+4:     = submit_tag "Who's Following?"
+
+    app/views/search/_search_form.html.haml:6:in `compile!'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.20) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/search/index.html.haml:3:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (56.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:49:01) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (73.1ms)
+
+ActionView::TemplateError (undefined method `name' for nil:NilClass) on line #6 of app/views/search/index.html.haml:
+3: = render :partial => 'search_form', :locals => { :user => @user }
+4: 
+5: .user_info
+6:   %span.name= @user.name
+7:   %br
+8:   Followers Count:
+9:   = @user.followers_count
+
+    app/views/search/index.html.haml:6:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (114.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:50:23) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (1.0ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-20 12:50:46) [POST]
+  Parameters: {"name"=>"bdmac97", "commit"=>"Who's Following?", "authenticity_token"=>"mAF0vJm9aqCeThHvUJUez8oafWe9u00QXP6shh2niK4="}
+
+ActionController::RoutingError (No route matches "/search" with {:method=>:post}):
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:53:05) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (1.6ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-20 12:53:09) [GET]
+  Parameters: {"name"=>"bdmac97", "commit"=>"Who's Following?"}
+
+ActionController::RoutingError (No route matches "/search" with {:method=>:get}):
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 12:53:20) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.9ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5612ms (View: 6, DB: 0) | 200 OK [http://localhost/search/bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:05:30) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (1.6ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:05:37) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.7ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 5997ms (View: 5, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:08:01) [GET]
+Rendering template within layouts/application
+Rendering search/index
+
+ActionView::TemplateError (undefined local variable or method `search_path' for #<ActionView::Base:0x2399f48>) on line #2 of app/views/search/_search_form.html.haml:
+1: .search_form
+2:   - form_tag search_path, :method => 'get' do
+3:     = text_field_tag 'name', params[:name]
+4:     = submit_tag "Who's Following?", :name => nil
+
+    app/views/search/_search_form.html.haml:2:in `_run_haml_app47views47search47_search_form46html46haml_locals_object_search_form_user'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.20) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/search/index.html.haml:3:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (122.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:10:02) [GET]
+Rendering template within layouts/application
+Rendering search/index
+
+ActionView::TemplateError (search_url failed to generate from {:action=>"index", :controller=>"search"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["search", :name] - are they all satisfied?) on line #2 of app/views/search/_search_form.html.haml:
+1: .search_form
+2:   - form_tag search_path, :method => 'get' do
+3:     = text_field_tag 'name', params[:name]
+4:     = submit_tag "Who's Following?", :name => nil
+
+    (eval):20:in `search_path'
+    app/views/search/_search_form.html.haml:2:in `_run_haml_app47views47search47_search_form46html46haml_locals_object_search_form_user'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.20) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/search/index.html.haml:3:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (61.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:15:24) [GET]
+Rendering template within layouts/application
+Rendering search/index
+ERROR: compiling _run_haml_app47views47search47_search_form46html46haml_locals_object_search_form_user RAISED compile error
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:2: syntax error, unexpected tASSOC, expecting '}'
+..., 1, false); form_tag {:url => {:controller => 'search', :ac...
+                              ^
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:2: syntax error, unexpected ',', expecting kEND
+...search', :action => 'index'}}, :method => 'get' do;
+                              ^
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:2: syntax error, unexpected kDO, expecting kEND
+...'index'}}, :method => 'get' do;
+                              ^
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:6: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47search47_search_form46html46haml_locals_object_search_form_user(local_assigns)
+            old_output_buffer = output_buffer;user = local_assigns[:user];search_form = local_assigns[:search_form];object = local_assigns[:object];;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:preserve=>["textarea", "pre", "code"], :format=>:xhtml, :attr_wrapper=>"'", :encoding=>nil, :escape_html=>false, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false});_erbout = _hamlout.buffer;__in_erb_template = true;;
+_hamlout.push_text("<div class='search_form'>\n", 1, false); form_tag {:url => {:controller => 'search', :action => 'index'}}, :method => 'get' do;
+_hamlout.push_text("  #{haml_temp =  text_field_tag 'name', params[:name]
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  #{haml_temp =  submit_tag "Who's Following?", :name => nil
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);end;_hamlout.push_text("</div>\n", -1, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:6:in `compile!'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:20:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:19:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/partials.rb:184:in `render_partial'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:267:in `render_without_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers.rb:96:in `non_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Users/bmcmanus/rails_apps/following/app/views/search/index.html.haml:3:in `_run_haml_app47views47search47index46html46haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `send'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:306:in `with_template'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/renderable.rb:30:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render_without_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render_without_haml'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/haml-2.2.20/rails/../lib/sass/plugin/rails.rb:20:in `process'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/commands/server.rb:111
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:2: syntax error, unexpected tASSOC, expecting '}'
+..., 1, false); form_tag {:url => {:controller => 'search', :ac...
+                              ^
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:2: syntax error, unexpected ',', expecting kEND
+...search', :action => 'index'}}, :method => 'get' do;
+                              ^
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:2: syntax error, unexpected kDO, expecting kEND
+...'index'}}, :method => 'get' do;
+                              ^
+/Users/bmcmanus/rails_apps/following/app/views/search/_search_form.html.haml:6: syntax error, unexpected kENSURE, expecting $end) on line #2 of app/views/search/_search_form.html.haml:
+1: .search_form
+2:   - form_tag {:url => {:controller => 'search', :action => 'index'}}, :method => 'get' do
+3:     = text_field_tag 'name', params[:name]
+4:     = submit_tag "Who's Following?", :name => nil
+
+    app/views/search/_search_form.html.haml:6:in `compile!'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.20) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/search/index.html.haml:3:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (57.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:15:37) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (1.7ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:15:41) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Rendered search/_tweep (0.5ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 4781ms (View: 5, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:16:02) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:16:18) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (1.9ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:16:32) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (1.6ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:21:39) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (1.6ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:25:04) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.7ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:25:18) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:25:57) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.9ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:26:03) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.7ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:26:46) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:27:03) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.7ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:27:09) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.9ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:27:16) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.7ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:27:21) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.7ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:27:34) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.7ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:27:43) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.9ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5035ms (View: 5, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:27:53) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.7ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:29:43) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (1.9ms)
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:30:17) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.7ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:30:28) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.7ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:30:36) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (1.0ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Completed in 6574ms (View: 6, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:38:19) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.7ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:38:22) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 4285ms (View: 6, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:43:42) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Rendered search/_tweep (2.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.6ms)
+Completed in 4776ms (View: 12, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:44:22) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.9ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 4879ms (View: 6, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:44:39) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5812ms (View: 5, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:48:31) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5878ms (View: 6, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:48:59) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (1.0ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5511ms (View: 6, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:49:44) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 9221ms (View: 5, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:50:07) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.9ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5350ms (View: 5, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:51:43) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.9ms)
+Rendered search/_tweep (2.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Completed in 6387ms (View: 10, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:52:23) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Rendered search/_tweep (3.0ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5791ms (View: 11, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:52:35) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.9ms)
+Rendered search/_tweep (2.8ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 4556ms (View: 12, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:53:29) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Rendered search/_tweep (2.1ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 8143ms (View: 10, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:54:49) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Rendered search/_tweep (2.1ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 5310ms (View: 10, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:55:08) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (1.1ms)
+Rendered search/_tweep (2.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 5643ms (View: 11, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:55:35) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.9ms)
+Rendered search/_tweep (2.1ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 5222ms (View: 10, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 13:59:45) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (1.0ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Completed in 5582ms (View: 68, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:01:49) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 5227ms (View: 11, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:02:26) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 19408ms (View: 5, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:03:28) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.9ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 5475ms (View: 12, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:03:51) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (66.5ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 10745ms (View: 71, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:04:45) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.7ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 5040ms (View: 10, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:09:49) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (1.7ms)
+Rendered search/_sort_options (2.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 7563ms (View: 33, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:12:48) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.9ms)
+
+ActionView::TemplateError (undefined method `<' for nil:NilClass) on line #15 of app/views/search/index.html.haml:
+12:       %span.count
+13:         = @user.friends_count
+14:       friends.  
+15:       - if @user.followers_count < 1000
+16:         Bummer. :-(
+17:       - else
+18:         That's awesome!
+
+    app/views/search/index.html.haml:15:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (46.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:13:58) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+
+ActionView::TemplateError (undefined method `<' for nil:NilClass) on line #14 of app/views/search/index.html.haml:
+11:       %span.count
+12:         = @user.friends_count
+13:       friends.  
+14:       - if @user.followers_count < 1000
+15:         Bummer. :-(
+16:       - else
+17:         That's awesome!
+
+    app/views/search/index.html.haml:14:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (116.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:14:27) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+
+ActionView::TemplateError (undefined method `<' for nil:NilClass) on line #15 of app/views/search/index.html.haml:
+12:       %span.count
+13:         = @user.friends_count
+14:       friends.  
+15:       - if @user.followers_count < 1000
+16:         Bummer. :-(
+17:       - else
+18:         That's awesome!
+
+    app/views/search/index.html.haml:15:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (49.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:16:02) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (1.1ms)
+Rendered search/_sort_options (2.0ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 4285ms (View: 89, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:17:04) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Rendered search/_sort_options (0.7ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 6386ms (View: 6, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:17:28) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Rendered search/_sort_options (0.7ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 4284ms (View: 6, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:17:45) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (59.4ms)
+Rendered search/_sort_options (0.7ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 4030ms (View: 65, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:18:16) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.9ms)
+Rendered search/_sort_options (2.1ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_sort_options (0.6ms)
+Completed in 3500ms (View: 17, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:18:35) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Rendered search/_sort_options (0.8ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_sort_options (0.7ms)
+Completed in 5381ms (View: 7, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:18:45) [GET]
+  Parameters: {"name"=>"bdmac97", "sort"=>"followers"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.8ms)
+Rendered search/_sort_options (0.7ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_sort_options (0.7ms)
+Completed in 3448ms (View: 7, DB: 0) | 200 OK [http://localhost/search/bdmac97?sort=followers]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:22:03) [GET]
+  Parameters: {"name"=>"jmaite"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.9ms)
+Rendered search/_sort_options (1.3ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_sort_options (0.7ms)
+Completed in 4895ms (View: 8, DB: 0) | 200 OK [http://localhost/?name=jmaite]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:33:31) [GET]
+  Parameters: {"name"=>"jmaite"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.9ms)
+Rendered search/_sort_options (0.7ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_sort_options (0.7ms)
+Completed in 2965ms (View: 8, DB: 0) | 200 OK [http://localhost/?name=jmaite]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:33:47) [GET]
+  Parameters: {"name"=>"bdmac97"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.7ms)
+Rendered search/_sort_options (0.6ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.8ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_sort_options (0.7ms)
+Completed in 5031ms (View: 102, DB: 0) | 200 OK [http://localhost/?name=bdmac97]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-20 14:34:25) [GET]
+  Parameters: {"name"=>"danmartell"}
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (1.3ms)
+Rendered search/_sort_options (0.7ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.4ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_sort_options (0.7ms)
+Completed in 5900ms (View: 47, DB: 0) | 200 OK [http://localhost/?name=danmartell]

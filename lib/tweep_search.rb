@@ -1,7 +1,4 @@
-# From: http://railstips.org/2008/7/29/it-s-an-httparty-and-everyone-is-invited
-# Author: John Nunemaker
-
-# Delicious API with HTTParty Gem
+# TweepSearch API with HTTParty Gem
 
 require 'rubygems'
 require 'httparty'
@@ -15,10 +12,24 @@ class TweepSearch
   
   def search(options={})
     user = options.delete(:user) || nil
+    puts options.inspect
+    tweeps = []
     if user
-      self.class.get("/#{user}.json", options)
+      tweeps = self.class.get("/#{user}.json", options)
     else
-      self.class.get(".json", options)
+      tweeps = self.class.get(".json", options)
     end
+    #klout = Klout.new
+    #puts tweeps.inspect
+    tweeps = tweeps.map do |tweep|
+      #user = Twitter.user(tweep['screen_name'])
+      #tweep = tweep.merge({'followers_count' => user.followers_count, 'friends_count' => user.friends_count})
+      #puts tweep.inspect
+    #  puts klout.search(user)
+      tweep
+    end
+    #puts "AFTER MAP"
+    #puts tweeps.inspect
+    tweeps
   end
 end

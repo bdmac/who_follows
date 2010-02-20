@@ -1,13 +1,17 @@
-!primary_color = #4B7399
+@import color_constants.sass
+
+html
+  :background-color= !brown
+  :border-top= "5px solid" + !green
 
 body
-  :background-color = !primary_color
+  :background-color= !brown
   :font
-    :family Verdana, Helvetica, Arial
+    :family "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif
     :size 14px
 
 a
-  :color #0000FF
+  :color= !link_blue
   img
     :border none
 
@@ -16,14 +20,109 @@ a
   :height 0
   :overflow hidden
 
-#container
-  :width 75%
+#wrap
+  :width 889px
   :margin 0 auto
-  :background #fff
+
+#title
+  :float left
+  :color= !white
+  :margin-bottom 10px
+  h1
+    :margin 0
+    :padding 0
+  a
+    :background= !brown + " url(/images/following-logo.png) no-repeat top left"
+    :display block
+    :height 67px
+    :width 256px
+    :text-indent -9999px
+
+#tagline
+  :float right
+  :width 40%
+  h2
+    :padding-top 10px
+    :color= !pink
+    :font-size 0.85em
+  
+#container
+  :background= !container_background
   :padding 20px 40px
   :border solid 1px black
-  :margin-top 20px
+  :-moz-border-radius 0.5em
+  :-webkit-border-radius 0.5em
+  :border-radius 0.5em
 
+#search_form
+  :margin-bottom 1em
+  p
+    :font-size 24px
+    :color= !black
+    :margin 0 0 1em 0
+    :padding 0
+  .name_input
+    :height 24px
+    :padding 4px
+    :font-size 20px
+    :background-color= !white
+    :border= 1px solid #CDC7B7
+    :margin-right 1em
+  .search_submit
+    :padding 4px
+    :font-size 18px
+
+input[type=submit], input[type=button], .search_submit
+  :border= "1px solid" + (!pink - #333333)
+  :background-color= !pink
+  :color= !white
+  :-moz-border-radius 0.3em
+  :-webkit-border-radius 0.3em
+  :border-radius 0.3em
+  :cursor pointer
+
+#user_info
+  p
+    :font-size 18px
+    :margin 0
+    :color= !black
+  .name
+    :font-size 24px
+    :font-weight bold
+  .count
+    :color= !pink
+    
+.sort_options
+  :float right
+  ul
+    :margin 5px 0
+    :padding 0
+    :list-style-type none
+    :list-style-position outside
+    :list-style-image none
+    li
+      :display block
+      :float left
+      :margin 0
+      :padding 0 0 0 1em
+      :list-style-type none
+      :list-style-position outside
+      :list-style-image none
+#tweeps
+  :margin-top 1em
+  :border-top= "2px solid " + !pink
+  .tweep
+    :margin 1em 0
+    :padding-bottom 1em
+    :border-bottom= "2px solid " + !pink
+    :overflow hidden
+    .avatar
+      :width 48px
+      :height 48px
+      :float left
+    .details
+      :padding-left 58px
+  
 #flash_notice,
 #flash_error
   :padding 5px 8px

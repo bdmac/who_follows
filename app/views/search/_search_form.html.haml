@@ -1,0 +1,6 @@
+#search_form
+  %p
+    Enter your twitter name below to find out who's following you!
+  - form_tag root_path, :method => 'get' do
+    = text_field_tag 'name', params[:name], :class => 'name_input'
+    = submit_tag "Who's Following?", :name => nil, :class => 'search_submit'

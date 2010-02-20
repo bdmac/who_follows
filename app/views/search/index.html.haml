@@ -1,13 +1,26 @@
 - title "Who's Following"
 
-.user_info
-  %span.name= @user.name
-  %br
-  Followers Count:
-  = @user.followers_count
-  %br
-  Friends Count:
-  = @user.friends_count
-  
-#tweeps
-  = render :partial => 'tweep', :collection => @tweeps
+= render :partial => 'search_form'
+- if @user.screen_name
+  #user_info
+    %span.name= @user.name
+    %p
+      You have
+      %span.count
+        = @user.followers_count
+      followers and
+      %span.count
+        = @user.friends_count
+      friends.  
+      - if @user.followers_count < 1000
+        Bummer. :-(
+      - else
+        That's awesome!
+    %p
+      Here's what we know...
+
+- if @tweeps
+  = render :partial => 'sort_options'
+  #tweeps
+    = render :partial => 'tweep', :collection => @tweeps
+  = render :partial => 'sort_options'
