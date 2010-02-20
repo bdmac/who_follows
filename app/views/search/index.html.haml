@@ -1,7 +1,7 @@
 - title "Who's Following"
 
 = render :partial => 'search_form'
-- if @user.screen_name
+- if @user && @user.screen_name
   #user_info
     %span.name= @user.name
     %p
