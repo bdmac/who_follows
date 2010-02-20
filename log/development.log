@@ -1,0 +1,137 @@
+/!\ FAILSAFE /!\  Fri Feb 19 20:36:52 -0600 2010
+  Status: 500 Internal Server Error
+  uninitialized constant Encoding
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:443:in `load_missing_constant'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:80:in `const_missing'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:92:in `const_missing'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/sqlite3-0.0.8/lib/sqlite3/encoding.rb:9:in `find'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/sqlite3-0.0.8/lib/sqlite3/database.rb:66:in `initialize'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `new'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/sqlite3_adapter.rb:13:in `sqlite3_connection'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Users/bmcmanus/.rvm/gems/ruby-1.8.6-p399%rails2/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 20:44:49) [GET]
+
+ActionView::MissingTemplate (Missing template search/index.erb in view path app/views):
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 20:46:43) [GET]
+
+ActionView::MissingTemplate (Missing template search/index.erb in view path app/views):
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 20:46:47) [GET]
+
+ActionView::MissingTemplate (Missing template search/index.erb in view path app/views):
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 20:46:48) [GET]
+
+ActionView::MissingTemplate (Missing template search/index.erb in view path app/views):
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 20:48:49) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 83ms (View: 82, DB: 0) | 200 OK [http://localhost/]
