@@ -2,7 +2,8 @@ class SearchController < ApplicationController
   def index
     @user = Twitter.user('bdmac97')
     puts @user
-    tweeps = TweepSearch.new
-    puts tweeps.search(:user => 'bdmac97')
+    tweepsearch = TweepSearch.new
+    @tweeps = tweepsearch.search(:user => 'bdmac97')
+    puts @tweeps.inspect
   end
 end

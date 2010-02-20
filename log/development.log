@@ -603,3 +603,317 @@ Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:57:55) [GET]
 Rendering template within layouts/application
 Rendering search/index
 Completed in 5170ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:07:13) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 21295ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:08:12) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 21724ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:08:35) [GET]
+
+NoMethodError (undefined method `klass' for #<Array:0x241daf0>):
+  httparty (0.4.5) lib/httparty/response.rb:15:in `send'
+  httparty (0.4.5) lib/httparty/response.rb:15:in `method_missing'
+  app/controllers/search_controller.rb:7:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.9ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:09:18) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 3624ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:09:31) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 11118ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:10:30) [GET]
+Rendering template within layouts/application
+Rendering search/index
+
+ActionView::TemplateError (Missing template arrays/_array.erb in view path app/views) on line #13 of app/views/search/index.html.haml:
+10:   = @user.friends_count
+11:   
+12: #tweeps
+13:   = render @tweeps
+
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.20) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/search/index.html.haml:13:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (51.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:11:21) [GET]
+Rendering template within layouts/application
+Rendering search/index
+
+ActionView::TemplateError (undefined method `profile_image_url' for #<Hash:0x22a3274>) on line #2 of app/views/search/_tweep.html.haml:
+1: .tweep
+2:   .avatar= link_to image_tag(tweep.profile_image_url), "http://twitter.com/#{tweep.screen_name}"
+3:   .name= tweep.name
+4:   .id= tweep.screen_name
+5:   .description= tweep.description
+
+    app/views/search/_tweep.html.haml:2:in `_run_haml_app47views47search47_tweep46html46haml_locals_object_tweep_tweep_counter'
+    httparty (0.4.5) lib/httparty/response.rb:15:in `map'
+    httparty (0.4.5) lib/httparty/response.rb:15:in `send'
+    httparty (0.4.5) lib/httparty/response.rb:15:in `method_missing'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.20) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/search/index.html.haml:13:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (61.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:13:52) [GET]
+Rendering template within layouts/application
+Rendering search/index
+
+ActionView::TemplateError (can't convert nil into String) on line #2 of app/views/search/_tweep.html.haml:
+1: .tweep
+2:   .avatar= link_to image_tag(tweep[:profile_image_url]), "http://twitter.com/#{tweep.screen_name}"
+3:   .name= tweep[:name]
+4:   .id= tweep[:screen_name]
+5:   .description= tweep[:description]
+
+    app/views/search/_tweep.html.haml:2:in `_run_haml_app47views47search47_tweep46html46haml_locals_object_tweep_tweep_counter'
+    httparty (0.4.5) lib/httparty/response.rb:15:in `map'
+    httparty (0.4.5) lib/httparty/response.rb:15:in `send'
+    httparty (0.4.5) lib/httparty/response.rb:15:in `method_missing'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.20) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/search/index.html.haml:13:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (131.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:14:15) [GET]
+Rendering template within layouts/application
+Rendering search/index
+
+ActionView::TemplateError (can't convert nil into String) on line #2 of app/views/search/_tweep.html.haml:
+1: .tweep
+2:   .avatar= link_to image_tag(tweep[:profile_image_url]), "http://twitter.com/#{tweep[:screen_name]}"
+3:   .name= tweep[:name]
+4:   .id= tweep[:screen_name]
+5:   .description= tweep[:description]
+
+    app/views/search/_tweep.html.haml:2:in `_run_haml_app47views47search47_tweep46html46haml_locals_object_tweep_tweep_counter'
+    httparty (0.4.5) lib/httparty/response.rb:15:in `map'
+    httparty (0.4.5) lib/httparty/response.rb:15:in `send'
+    httparty (0.4.5) lib/httparty/response.rb:15:in `method_missing'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.20) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/search/index.html.haml:13:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (129.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:15:22) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (1.6ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 3931ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:16:11) [GET]
+Rendering template within layouts/application
+Rendering search/index
+
+ActionView::TemplateError (haml_concat outputs directly to the Haml template.
+Disregard its return value and use the - operator,
+or use capture_haml to get the value as a String.
+) on line #3 of app/views/search/_tweep.html.haml:
+1: .tweep
+2:   = puts tweep.inspect
+3:   .name= tweep[:name]
+4:   .id= tweep[:screen_name]
+5:   .description= tweep[:description]
+6:   .url= link_to tweep[:url]
+
+    app/views/search/_tweep.html.haml:3:in `_run_haml_app47views47search47_tweep46html46haml_locals_object_tweep_tweep_counter'
+    httparty (0.4.5) lib/httparty/response.rb:15:in `map'
+    httparty (0.4.5) lib/httparty/response.rb:15:in `send'
+    httparty (0.4.5) lib/httparty/response.rb:15:in `method_missing'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.20) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/search/index.html.haml:13:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (123.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:16:33) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (1.7ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 6393ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 22:17:36) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_tweep (1.9ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.3ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Rendered search/_tweep (0.2ms)
+Completed in 8152ms (View: 14, DB: 0) | 200 OK [http://localhost/]

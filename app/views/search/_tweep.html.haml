@@ -1,0 +1,6 @@
+.tweep
+  .avatar= link_to image_tag(tweep['profile_image_url']), "http://twitter.com/#{tweep['screen_name']}"
+  .name= tweep['name']
+  .id= tweep['screen_name']
+  .description= tweep['description']
+  .url= link_to tweep['url']
