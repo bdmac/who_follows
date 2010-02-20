@@ -135,3 +135,471 @@ Processing SearchController#index (for 127.0.0.1 at 2010-02-19 20:48:49) [GET]
 Rendering template within layouts/application
 Rendering search/index
 Completed in 83ms (View: 82, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:05:03) [GET]
+
+NoMethodError (undefined method `pp' for #<SearchController:0x22674f4>):
+  app/controllers/search_controller.rb:3:in `index'
+  haml (2.2.20) lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (99.5ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:05:12) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 303ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:14:55) [GET]
+
+NoMethodError (undefined method `expose' for #<SearchController:0x2485b00>):
+  app/controllers/search_controller.rb:3:in `index'
+  haml (2.2.20) lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:15:39) [GET]
+
+NoMethodError (undefined method `expose' for #<SearchController:0x225d288>):
+  app/controllers/search_controller.rb:3:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.1ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:15:40) [GET]
+
+NoMethodError (undefined method `expose' for #<SearchController:0x25053b4>):
+  app/controllers/search_controller.rb:3:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:15:41) [GET]
+
+NoMethodError (undefined method `expose' for #<SearchController:0x23f60b8>):
+  app/controllers/search_controller.rb:3:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:15:42) [GET]
+
+NoMethodError (undefined method `expose' for #<SearchController:0x22dae2c>):
+  app/controllers/search_controller.rb:3:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (98.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:19:54) [GET]
+Rendering template within layouts/application
+Rendering search/index
+
+ActionView::TemplateError (undefined local variable or method `user' for #<ActionView::Base:0x24a8114>) on line #4 of app/views/search/index.html.haml:
+1: - title "Who's Following"
+2: 
+3: .user_info
+4:   %span.name= user.name
+
+    app/views/search/index.html.haml:4:in `_run_haml_app47views47search47index46html46haml'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (45.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:20:23) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 209ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:28:00) [GET]
+
+NoMethodError (undefined method `expose' for #<SearchController:0x2560070>):
+  app/controllers/search_controller.rb:3:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:29:10) [GET]
+
+NoMethodError (undefined method `expose' for #<SearchController:0x225a18c>):
+  app/controllers/search_controller.rb:3:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (94.1ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:32:59) [GET]
+
+NoMethodError (undefined method `expose' for #<SearchController:0x2502588>):
+  app/controllers/search_controller.rb:3:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:33:00) [GET]
+
+NoMethodError (undefined method `expose' for #<SearchController:0x23f32c8>):
+  app/controllers/search_controller.rb:3:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (38.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:33:00) [GET]
+
+NoMethodError (undefined method `expose' for #<SearchController:0x22d8ab4>):
+  app/controllers/search_controller.rb:3:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (98.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:33:01) [GET]
+
+NoMethodError (undefined method `expose' for #<SearchController:0x24a69cc>):
+  app/controllers/search_controller.rb:3:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:33:01) [GET]
+
+NoMethodError (undefined method `expose' for #<SearchController:0x23a1f7c>):
+  app/controllers/search_controller.rb:3:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:33:02) [GET]
+
+NoMethodError (undefined method `expose' for #<SearchController:0x2567f64>):
+  app/controllers/search_controller.rb:3:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:33:03) [GET]
+
+NoMethodError (undefined method `expose' for #<SearchController:0x245061c>):
+  app/controllers/search_controller.rb:3:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:34:07) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 249ms (View: 13, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:35:11) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 270ms (View: 72, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:35:25) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 203ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:46:43) [GET]
+
+NoMethodError (undefined method `search' for TweepSearch:Class):
+  app/controllers/search_controller.rb:5:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:47:13) [GET]
+
+NoMethodError (undefined method `search' for TweepSearch:Class):
+  app/controllers/search_controller.rb:5:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (96.9ms)
+Rendered rescues/_request_and_response (1.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:47:15) [GET]
+
+NoMethodError (undefined method `search' for TweepSearch:Class):
+  app/controllers/search_controller.rb:5:in `index'
+  haml (2.2.20) rails/./lib/sass/plugin/rails.rb:20:in `process'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/bmcmanus/.rvm/rubies/ruby-1.8.6-p399/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (39.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:52:59) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 14042ms (View: 52, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:54:55) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 591ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:55:38) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 4832ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:57:27) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 11357ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-02-19 21:57:55) [GET]
+Rendering template within layouts/application
+Rendering search/index
+Completed in 5170ms (View: 15, DB: 0) | 200 OK [http://localhost/]

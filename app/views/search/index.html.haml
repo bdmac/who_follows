@@ -1,1 +1,10 @@
 - title "Who's Following"
+
+.user_info
+  %span.name= @user.name
+  %br
+  Followers Count:
+  = @user.followers_count
+  %br
+  Friends Count:
+  = @user.friends_count
