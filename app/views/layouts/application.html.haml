@@ -5,9 +5,9 @@
     %title
       = h(yield(:title) || "Untitled")
     %meta{"http-equiv"=>"Content-Type", :content=>"text/html; charset=utf-8"}/
-    = stylesheet_link_tag 'application'
+    = stylesheet_link_tag 'application', 'colorbox', 'jquery.tooltip'
     = yield(:head)
-    = javascript_include_tag 'jquery', 'application'
+    = javascript_include_tag 'jquery', 'application', 'jquery.colorbox-min', 'jquery.tooltip.min'
   
   %body
     #wrap

@@ -1,26 +1,48 @@
 - title "Who's Following"
 
 = render :partial => 'search_form'
-- if @user && @user.screen_name
-  #user_info
-    %span.name= @user.name
-    %p
-      You have
-      %span.count
-        = @user.followers_count
-      followers and
-      %span.count
-        = @user.friends_count
-      friends.  
-      - if @user.followers_count < 1000
-        Bummer. :-(
-      - else
-        That's awesome!
-    %p
-      Here's what we know...
 
-- if @tweeps
-  = render :partial => 'sort_options'
-  #tweeps
-    = render :partial => 'tweep', :collection => @tweeps
-  = render :partial => 'sort_options'
+#spinner
+  = image_tag '/images/loading.gif', :alt => 'Loading...'
+  We're workin' on it...
+
+#results
+  - if @user && @user.screen_name
+    .clear
+    #user_info
+      %span.name= @user.name
+      .metadata
+        %p Here's a bird's eye view...
+        %ul
+          %li
+            You have
+            %em
+              =h @user.followers_count
+            followers and
+            %em
+              =h @user.friends_count
+            friends.  
+            - if @user.followers_count < 1000
+              Bummer. :-(
+            - else
+              That's awesome!
+          %li
+            = "<em>#{@most_per_day['screen_name']}</em> is the nosiest twitterer with <em>#{@most_per_day['tweets_per_day'].to_f.round}</em> per day."
+          %li
+            = "<em>#{@highest_kscore['screen_name']}</em> appears to be the most influential with a KScore of <em>#{@highest_kscore['kscore'].to_f.round}</em>."
+          = @map.to_html
+          %li
+            = "I've also mapped your tweeps for you.  #{link_to "Want to see where they are?", '#', :id => 'map_link'}"
+          #map_container
+            = @map.div
+
+  - if @tweeps
+    = render :partial => 'sort_options'
+    #tweeps
+      = render :partial => 'tweep', :collection => @tweeps
+    = render :partial => 'sort_options'
+  - elsif @user && @user.screen_name
+    #tweeps
+      .tweep
+        = "No followers/friends were found for #{@user.screen_name}."
+        Either they really don't have any or their account is locked down.    

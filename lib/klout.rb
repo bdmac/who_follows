@@ -13,7 +13,6 @@ class Klout
   
   def search(options={})
     user = options.delete(:user) || nil
-    tweeps = []
     if user
       self.class.get("/#{user}.xml", options)
     end

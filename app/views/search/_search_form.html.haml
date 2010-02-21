@@ -3,4 +3,6 @@
     Enter your twitter name below to find out who's following you!
   - form_tag root_path, :method => 'get' do
     = text_field_tag 'name', params[:name], :class => 'name_input'
+    = select_tag 'filter', options_for_select([['Friends/Followers', ''], ['Friends', 'only:friends'], ['Followers', 'only:followers'], ['Mutual', 'only:mutual']], :selected => params[:filter]), :class => 'filter'
     = submit_tag "Who's Following?", :name => nil, :class => 'search_submit'
+.clear

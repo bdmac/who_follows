@@ -1,10 +1,25 @@
 .tweep
-  .avatar= link_to image_tag("http://twitteravatar.appspot.com/users/avatar/#{tweep['screen_name']}"), "http://twitter.com/#{tweep['screen_name']}"
+  .avatar= link_to image_tag("http://twitteravatar.appspot.com/users/avatar/#{tweep['screen_name']}/normal"), "http://twitter.com/#{tweep['screen_name']}"
+  .klout
+    .klout_header
+      KScore
+    - if tweep['kscore'] == -1
+      N/A
+      = image_tag 'help.png', :title => 'Not Found - This person\'s KScore was not available.  Please check back later.', :class => 'help_balloon'
+    - else
+      =h tweep['kscore'].to_f.round
+      = image_tag 'help.png', :title => "#{tweep['screen_name']} is a #{tweep['kclass']} - #{tweep['kclass_description']}", :class => 'help_balloon'
+  .follow_cost
+    %h3 Sweet Stats
+    = "#{tweep['status_count']} tweets."
+    %br
+    = "#{tweep['tweets_per_day'].to_f.round} per day."
   .details
     .user_info
       = link_to tweep['screen_name'], "http://twitter.com/#{tweep['screen_name']}"
       |
-      = tweep['name']
+      =h tweep['name']
+      %span.since= "#{time_ago_in_words(tweep['created_at'])} on twitter"
     .description= tweep['description']
     - if tweep['url']
-      .url= link_to tweep['url']
+      .url= link_to truncate(tweep['url']), tweep['url']
