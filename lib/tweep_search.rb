@@ -14,10 +14,17 @@ class TweepSearch
   def search(options={})
     user = options.delete(:user) || nil
     tweeps = []
-    if user
-      tweeps = self.class.get("/#{user}.json", options)
-    else
-      tweeps = self.class.get(".json", options)
+    begin
+      if user
+        tweeps = self.class.get("/#{user}.json", options)
+      else
+        tweeps = self.class.get(".json", options)
+      end
+    rescue Crack::ParseError
+      # I don't understand why it throws a JSON parse error before allowing me
+      # to check the return code was 500 but it does.  Lame.
+      puts "Invalid JSON string, probably a 500."
+      return nil
     end
     
     return nil unless tweeps.code == 200

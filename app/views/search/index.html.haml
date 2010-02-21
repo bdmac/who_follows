@@ -26,15 +26,16 @@
               Bummer. :-(
             - else
               That's awesome!
-          %li
-            = "<em>#{@most_per_day['screen_name']}</em> is the nosiest twitterer with <em>#{@most_per_day['tweets_per_day'].to_f.round}</em> per day."
-          %li
-            = "<em>#{@highest_kscore['screen_name']}</em> appears to be the most influential with a KScore of <em>#{@highest_kscore['kscore'].to_f.round}</em>."
-          = @map.to_html
-          %li
-            = "I've also mapped your tweeps for you.  #{link_to "Want to see where they are?", '#', :id => 'map_link'}"
-          #map_container
-            = @map.div
+          - if @tweeps
+            %li
+              = "<em>#{@most_per_day['screen_name']}</em> is the nosiest twitterer with <em>#{@most_per_day['tweets_per_day'].to_f.round}</em> per day."
+            %li
+              = "<em>#{@highest_kscore['screen_name']}</em> appears to be the most influential with a KScore of <em>#{@highest_kscore['kscore'].to_f.round}</em>."
+            = @map.to_html
+            %li
+              = "I've also mapped your tweeps for you.  #{link_to "Want to see where they are?", '#', :id => 'map_link'}"
+            #map_container
+              = @map.div
 
   - if @tweeps
     = render :partial => 'sort_options'
@@ -45,4 +46,4 @@
     #tweeps
       .tweep
         = "No followers/friends were found for #{@user.screen_name}."
-        Either they really don't have any or their account is locked down.    
+        Either they really don't have any or TweepSearch is broken.    
