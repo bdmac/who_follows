@@ -58435,3 +58435,186 @@ Google geocoding. Address: Boston, MA. Result: <?xml version="1.0" encoding="UTF
     <Point><coordinates>-71.0597732,42.3584308,0</coordinates></Point>
   </Placemark>
 </Response></kml>
+Google geocoding. Address: Cambridge, Massachusetts. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Cambridge, Massachusetts</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Cambridge, MA, USA</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>MA</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Middlesex</SubAdministrativeAreaName><Locality><LocalityName>Cambridge</LocalityName></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="42.4080600" south="42.3421165" east="-71.0415782" west="-71.1696376" />
+    </ExtendedData>
+    <Point><coordinates>-71.1056079,42.3750969,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+Google geocoding. Address: Barranquilla, Colombia. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Barranquilla, Colombia</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Barranquilla, Colombia</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>CO</CountryNameCode><CountryName>Colombia</CountryName><AdministrativeArea><AdministrativeAreaName>Atlántico</AdministrativeAreaName><Locality><LocalityName>Barranquilla</LocalityName></Locality></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="11.0641383" south="10.8888767" east="-74.6820144" west="-74.9381332" />
+    </ExtendedData>
+    <Point><coordinates>-74.8100738,10.9765205,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+Google geocoding. Address: Stockholm. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Stockholm</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Stockholm, Sweden</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>SE</CountryNameCode><CountryName>Sverige</CountryName><SubAdministrativeArea><SubAdministrativeAreaName>Stockholms Län</SubAdministrativeAreaName><Locality><LocalityName>Stockholm</LocalityName></Locality></SubAdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="59.4237244" south="59.2416077" east="18.3206069" west="17.8083693" />
+    </ExtendedData>
+    <Point><coordinates>18.0644881,59.3327881,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+Google geocoding. Address: Jacksonville FL. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>Jacksonville FL</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>Jacksonville, FL, USA</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>FL</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Duval</SubAdministrativeAreaName><Locality><LocalityName>Jacksonville</LocalityName></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="30.6398769" south="30.0235208" east="-81.1434134" west="-82.1678886" />
+    </ExtendedData>
+    <Point><coordinates>-81.6556510,30.3321838,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+Google geocoding. Address: 44.041847,-92.431213. Result: <?xml version="1.0" encoding="UTF-8" ?>
+<kml xmlns="http://earth.google.com/kml/2.0"><Response>
+  <name>44.041847,-92.431213</name>
+  <Status>
+    <code>200</code>
+    <request>geocode</request>
+  </Status>
+  <Placemark id="p1">
+    <address>1800-1898 22nd Ave NE, Rochester, MN 55906, USA</address>
+    <AddressDetails Accuracy="8" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>MN</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Olmsted</SubAdministrativeAreaName><Locality><LocalityName>Rochester</LocalityName><Thoroughfare><ThoroughfareName>1800-1898 22nd Ave NE</ThoroughfareName></Thoroughfare><PostalCode><PostalCodeNumber>55906</PostalCodeNumber></PostalCode></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="44.0438938" south="44.0375985" east="-92.4288798" west="-92.4351750" />
+    </ExtendedData>
+    <Point><coordinates>-92.4317129,44.0411090,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p2">
+    <address>The Church of Jesus Christ of Latter Day Saints, Rochester, MN 55906, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>MN</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Olmsted</SubAdministrativeAreaName><Locality><LocalityName>Rochester</LocalityName><PostalCode><PostalCodeNumber>55906</PostalCodeNumber></PostalCode><AddressLine>The Church of Jesus Christ of Latter Day Saints</AddressLine></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="44.0481118" south="44.0418166" east="-92.4298060" west="-92.4361012" />
+    </ExtendedData>
+    <Point><coordinates>-92.4329536,44.0449642,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p3">
+    <address>Northern Valley Dr NE and Northern Heights Dr NE, Rochester, MN 55906, USA</address>
+    <AddressDetails Accuracy="9" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>Northern Valley Dr NE and Northern Heights Dr NE</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="44.0478876" south="44.0415924" east="-92.4320424" west="-92.4383376" />
+    </ExtendedData>
+    <Point><coordinates>-92.4351900,44.0447400,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p4">
+    <address>Rochester, MN 55906, USA</address>
+    <AddressDetails Accuracy="5" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>MN</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Olmsted</SubAdministrativeAreaName><Locality><LocalityName>Rochester</LocalityName><PostalCode><PostalCodeNumber>55906</PostalCodeNumber></PostalCode></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="44.2344880" south="44.0212640" east="-92.3188110" west="-92.4875900" />
+    </ExtendedData>
+    <Point><coordinates>-92.4011124,44.0898902,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p5">
+    <address>Rochester, MN, USA</address>
+    <AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>MN</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Olmsted</SubAdministrativeAreaName><Locality><LocalityName>Rochester</LocalityName></Locality></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="44.1075960" south="43.8843789" east="-92.3889959" west="-92.5733489" />
+    </ExtendedData>
+    <Point><coordinates>-92.4698992,44.0216306,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p6">
+    <address>Rochester, Minnesota, USA</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>Rochester</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="44.2570610" south="43.8992480" east="-92.3014920" west="-92.5992540" />
+    </ExtendedData>
+    <Point><coordinates>-92.4208713,44.0324230,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p7">
+    <address>Olmsted, Minnesota, USA</address>
+    <AddressDetails Accuracy="3" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>MN</AdministrativeAreaName><SubAdministrativeArea><SubAdministrativeAreaName>Olmsted</SubAdministrativeAreaName></SubAdministrativeArea></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="44.1955959" south="43.8336569" east="-92.0785130" west="-92.6895459" />
+    </ExtendedData>
+    <Point><coordinates>-92.3813621,43.9951790,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p8">
+    <address>Minnesota, USA</address>
+    <AddressDetails Accuracy="2" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>MN</AdministrativeAreaName></AdministrativeArea></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="49.3843580" south="43.4993610" east="-89.4833850" west="-97.2391959" />
+    </ExtendedData>
+    <Point><coordinates>-94.6858998,46.7295530,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p9">
+    <address>United States</address>
+    <AddressDetails Accuracy="1" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName></Country></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="71.5388000" south="18.7763000" east="-66.8850750" west="170.5957000" />
+    </ExtendedData>
+    <Point><coordinates>-95.7128910,37.0902400,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="p10">
+    <address>North America</address>
+    <AddressDetails Accuracy="0" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><AddressLine>North America</AddressLine></AddressDetails>
+    <ExtendedData>
+      <LatLonBox north="85.4117930" south="5.5613000" east="-4.0430000" west="177.1436000" />
+    </ExtendedData>
+    <Point><coordinates>-105.2551187,54.5259614,0</coordinates></Point>
+  </Placemark>
+</Response></kml>
+Rendering template within layouts/application
+Rendering search/index
+Rendered search/_search_form (0.9ms)
+Rendered search/_sort_options (0.9ms)
+Rendered search/_tweep (2.6ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.9ms)
+Rendered search/_tweep (0.7ms)
+Rendered search/_tweep (0.7ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.7ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.7ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.6ms)
+Rendered search/_tweep (0.7ms)
+Rendered search/_sort_options (0.9ms)
+Completed in 72348ms (View: 30, DB: 0) | 200 OK [http://localhost/search/bdmac97?filter=&sort=friends_count]

@@ -10,7 +10,7 @@ class SearchController < ApplicationController
         tweepsearch = TweepSearch.new
         sort = params[:sort] || 'followers_count'
         params[:sort] = sort
-        @tweeps = tweepsearch.search(:user => params[:name], :query => {:sort => sort, :count => 25, :query => params[:filter]})
+        @tweeps = tweepsearch.search(:user => params[:name], :query => {:sort => sort, :count => 10, :query => params[:filter]})
         
         # Find the highest tweets/day
         @most_per_day = @tweeps.inject do |highest, tweep|
